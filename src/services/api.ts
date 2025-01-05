@@ -1,7 +1,7 @@
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
 import TokenService from './tokenService';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://websocketbackend.vercel.app/api';
 
 const api = axios.create({
   baseURL: API_URL,
